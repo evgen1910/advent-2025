@@ -1,5 +1,5 @@
 /* ===========================
-   ДАННЫЕ АДВЕНТА (вшиты)
+   ДАННЫЕ АДВЕНТА
    =========================== */
 
 const adventData = {
@@ -7,149 +7,134 @@ const adventData = {
     dateLabel: "15.12.2025",
     question: "Какое транспортное средство использует Гринч для кражи подарков?",
     answers: ["сани"],
-    giftName: "15_mems.pdf",
     giftUrl: "https://drive.google.com/file/d/15Ws-FihOM6pe0pejVdbqxKuJ5cLJqkfN/view?usp=sharing"
   },
   "2025-12-16": {
     dateLabel: "16.12.2025",
     question: "В какой стране на Новый год принято есть 12 виноградин под бой курантов, загадывая желание на каждый месяц?",
     answers: ["испания"],
-    giftName: "16_litres.pdf",
     giftUrl: "https://drive.google.com/file/d/1Gq0gTz6OIIeFxqNUfeRG_0HQ3DkDCYwQ/view?usp=sharing"
   },
   "2025-12-17": {
     dateLabel: "17.12.2025",
     question: "Как зовут героя диснеевского мультика, кому принадлежат слова \"Ой, смотрите, я - шашлычок!\" ?",
     answers: ["олаф"],
-    giftName: "A late-night luxury bar",
     giftUrl: "https://open.spotify.com/playlist/3laBYMG32oGIpMmKNoFUDs"
   },
   "2025-12-18": {
     dateLabel: "18.12.2025",
     question: "В какой стране на Новый год (Новый год по лунному календарю) нельзя подметать пол, чтобы не вымести удачу?",
     answers: ["китай"],
-    giftName: "18_king.pdf",
     giftUrl: "https://drive.google.com/file/d/1c3iueehQI8tNy7iva199JPIhqIRVfpqH/view?usp=sharing"
   },
   "2025-12-19": {
     dateLabel: "19.12.2025",
     question: "Что в Исландии дети кладут на подоконник в рождественскую ночь, чтобы туда попали подарки от 13-ти местных Дедов Морозов?",
     answers: ["ботинок"],
-    giftName: "клип новый-новый год",
     giftUrl: "https://www.youtube.com/watch?v=1Xn5p6fVzWI&list=RD1Xn5p6fVzWI&start_radio=1"
   },
   "2025-12-20": {
     dateLabel: "20.12.2025",
     question: "Кто из персонажей «Гарри Поттера» подарил Гарри на Рождество Мантию-невидимку?",
     answers: ["дамблдор"],
-    giftName: "Broken but Standing",
     giftUrl: "https://open.spotify.com/playlist/7bNg2XDsAQQ9fVv37lV9TA"
   },
   "2025-12-21": {
     dateLabel: "21.12.2025",
     question: "В какой стране на Рождество принято ставить на стол жареного... карпа?",
     answers: ["чехия"],
-    giftName: "21_king.pdf",
     giftUrl: "https://drive.google.com/file/d/1cGEqLKXtkD6i3eiJXWARiX0jRw77jsWa/view?usp=sharing"
   },
   "2025-12-22": {
     dateLabel: "22.12.2025",
     question: "Какой персонаж из «Властелина Колец» стал рождественским символом для фанатов ?",
     answers: ["гендальф"],
-    giftName: "игра",
     giftUrl: "https://evgen1910.github.io/dima-workday-game/"
   },
   "2025-12-23": {
     dateLabel: "23.12.2025",
     question: "В какой европейской стране на Рождество принято прятать метлу — чтобы ведьмы не унесли её для своих полётов?",
     answers: ["норвегия"],
-    giftName: "23_hor.pdf",
     giftUrl: "https://drive.google.com/file/d/1Xb02kf_3HeF7vxIFlRBh5FQmsPp7cdIl/view?usp=sharing"
   },
   "2025-12-24": {
     dateLabel: "24.12.2025",
     question: "Самый новогодний фильм с Брюссом Уиллисом: (в 2 слова)?",
     answers: ["крепкий орешек"],
-    giftName: "24_meditation.mp3",
     giftUrl: "https://drive.google.com/file/d/1FYMrOj9v5IgLeGXE1dEPpVNIkOhx_pdu/view?usp=sharing"
   },
   "2025-12-25": {
     dateLabel: "25.12.2025",
     question: "В какой стране главный зимний персонаж — козёл, а не Дед Мороз?",
     answers: ["финляндия"],
-    giftName: "The Kitchen. A Cigarette. A Heart-to-Heart Talk",
     giftUrl: "https://open.spotify.com/playlist/6ESOAs0TbqHaCpePLDnMTU"
   },
   "2025-12-26": {
     dateLabel: "26.12.2025",
     question: "В какой стране в новогоднюю ночь принято выбрасывать из окон старую мебель и ненужные вещи?",
     answers: ["италия"],
-    giftName: "26_stihi.pdf",
     giftUrl: "https://drive.google.com/file/d/1EnJEarD92D3esdQSyLXnCbisLlor28eq/view?usp=sharing"
   },
   "2025-12-27": {
     dateLabel: "27.12.2025",
     question: "Как зовут «злого» двойника Санты в австрийской и немецкой традициях, который наказывает непослушных детей?",
     answers: ["крампус"],
-    giftName: "27_recipe.pdf",
     giftUrl: "https://drive.google.com/file/d/19sBvPGZh1T0cX7gQtxe-yziUkk1z2SO9/view?usp=sharing"
   },
   "2025-12-28": {
     dateLabel: "28.12.2025",
     question: "В какой азиатской стране на Новый год принято отпускать живых карпов в реку, считая, что на них уплывают все беды?",
     answers: ["вьетнам"],
-    giftName: "Fuck it, let’s dance",
     giftUrl: "https://open.spotify.com/playlist/4IMcQvry1CFKrJwF2kgw3K"
   },
   "2025-12-29": {
     dateLabel: "29.12.2025",
     question: "Какой фрукт является обязательным подарком на китайский Новый год как пожелание богатства?",
     answers: ["мандарин"],
-    giftName: "28_wikium.pdf",
     giftUrl: "https://drive.google.com/file/d/1E1MhC06ub7Szh9vkmf3003xhjbRcs1Pa/view?usp=sharing"
   },
   "2025-12-30": {
     dateLabel: "30.12.2025",
     question: "Кого сыграл родной брат Маколея Калкина в фильме Один Дома?",
     answers: ["фуллер"],
-    giftName: "New Year Cooking Playlist",
     giftUrl: "https://open.spotify.com/playlist/6l6AKJhnRefQ1JlanzFf0R"
   },
   "2025-12-31": {
     dateLabel: "31.12.2025",
     question: "Кем был Мистер Хэнки из первого рождественского эпизода Южного парка?",
     answers: ["какашка"],
-    giftName: "поздравление от Деда Мороза",
     giftUrl: "https://drive.google.com/file/d/1bygZpTNiGqbyCHQQewskRVoCdu69pcNM/view?usp=sharing"
   }
 };
 
-// Порядок шаров + позиции на сцене (в % относительно контейнера)
+/* равномерно по экрану */
 const ornamentLayout = [
-  { key: "2025-12-15", x: 14, y: 46 },
-  { key: "2025-12-16", x: 24, y: 58 },
-  { key: "2025-12-17", x: 33, y: 44 },
-  { key: "2025-12-18", x: 40, y: 60 },
-  { key: "2025-12-19", x: 48, y: 42 },
-  { key: "2025-12-20", x: 56, y: 57 },
-  { key: "2025-12-21", x: 63, y: 45 },
-  { key: "2025-12-22", x: 72, y: 58 },
-  { key: "2025-12-23", x: 80, y: 44 },
-  { key: "2025-12-24", x: 18, y: 30 },
-  { key: "2025-12-25", x: 28, y: 28 },
-  { key: "2025-12-26", x: 38, y: 30 },
-  { key: "2025-12-27", x: 50, y: 26 },
-  { key: "2025-12-28", x: 62, y: 30 },
-  { key: "2025-12-29", x: 74, y: 28 },
-  { key: "2025-12-30", x: 86, y: 30 },
-  { key: "2025-12-31", x: 92, y: 58 }
+  { key:"2025-12-15", x: 10, y: 18 },
+  { key:"2025-12-16", x: 22, y: 42 },
+  { key:"2025-12-17", x: 36, y: 16 },
+  { key:"2025-12-18", x: 46, y: 40 },
+  { key:"2025-12-19", x: 62, y: 18 },
+  { key:"2025-12-20", x: 74, y: 42 },
+  { key:"2025-12-21", x: 88, y: 20 },
+
+  { key:"2025-12-22", x: 92, y: 62 },
+  { key:"2025-12-23", x: 82, y: 74 },
+  { key:"2025-12-24", x: 66, y: 84 },
+  { key:"2025-12-25", x: 50, y: 72 },
+  { key:"2025-12-26", x: 36, y: 86 },
+  { key:"2025-12-27", x: 18, y: 74 },
+  { key:"2025-12-28", x: 8,  y: 58 },
+
+  { key:"2025-12-29", x: 50, y: 10 },
+  { key:"2025-12-30", x: 30, y: 58 },
+  { key:"2025-12-31", x: 58, y: 56 }
 ];
 
 /* ===========================
    ХЕЛПЕРЫ
    =========================== */
 
-const STORAGE_KEY = "advent2025_opened_v1";
+const STORAGE_KEY = "advent2025_opened_v2";
 
 function loadOpened() {
   try {
@@ -171,15 +156,21 @@ function normalizeText(s) {
     .replace(/\s+/g, " ");
 }
 
-// принимает "ДД.ММ.ГГГГ" или "ГГГГ-ММ-ДД"
+/* принимает: 8 цифр DDMMYYYY / DD.MM.YYYY / YYYY-MM-DD */
 function parseUserDate(input) {
   const v = (input || "").trim();
 
-  // YYYY-MM-DD
+  const digits = v.replace(/\D/g, "");
+  if (digits.length === 8) {
+    const dd = digits.slice(0,2);
+    const mm = digits.slice(2,4);
+    const yyyy = digits.slice(4,8);
+    return `${yyyy}-${mm}-${dd}`;
+  }
+
   const iso = v.match(/^(\d{4})-(\d{2})-(\d{2})$/);
   if (iso) return `${iso[1]}-${iso[2]}-${iso[3]}`;
 
-  // DD.MM.YYYY
   const ru = v.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
   if (ru) return `${ru[3]}-${ru[2]}-${ru[1]}`;
 
@@ -189,19 +180,24 @@ function parseUserDate(input) {
 function formatDateLabel(iso) {
   const d = adventData[iso]?.dateLabel;
   if (d) return d;
-  // fallback
   const m = iso.match(/^(\d{4})-(\d{2})-(\d{2})$/);
   return m ? `${m[3]}.${m[2]}.${m[1]}` : iso;
 }
 
-function giftTypeByUrl(url, name) {
-  const u = (url || "").toLowerCase();
-  const n = (name || "").toLowerCase();
-  if (n.endsWith(".pdf") || u.includes(".pdf")) return "pdf";
-  if (n.endsWith(".mp3") || u.includes(".mp3")) return "audio";
-  if (u.includes("spotify.com")) return "spotify";
-  if (u.includes("youtube.com") || u.includes("youtu.be")) return "youtube";
-  return "link";
+function ballColorClass(idx){
+  const palette = ["ball--red","ball--gold","ball--blue","ball--green","ball--pink","ball--violet"];
+  return palette[idx % palette.length];
+}
+
+/* маска ввода: 15122025 -> 15.12.2025 */
+function maskDateInput(el){
+  el.addEventListener("input", () => {
+    const digits = el.value.replace(/\D/g, "").slice(0, 8);
+    let out = digits;
+    if (digits.length > 2) out = digits.slice(0,2) + "." + digits.slice(2);
+    if (digits.length > 4) out = digits.slice(0,2) + "." + digits.slice(2,4) + "." + digits.slice(4);
+    el.value = out;
+  });
 }
 
 /* ===========================
@@ -210,7 +206,7 @@ function giftTypeByUrl(url, name) {
 
 const ornamentsEl = document.querySelector(".ornaments");
 
-// modal elements
+// modal
 const modalOverlay = document.getElementById("modalOverlay");
 const modalClose = document.getElementById("modalClose");
 const modalTitle = document.getElementById("modalTitle");
@@ -233,8 +229,6 @@ const btnCheckAnswer = document.getElementById("btnCheckAnswer");
 const btnBack = document.getElementById("btnBack");
 const answerNote = document.getElementById("answerNote");
 
-const giftNameEl = document.getElementById("giftName");
-const giftDescEl = document.getElementById("giftDesc");
 const giftActions = document.getElementById("giftActions");
 const btnCloseAfterGift = document.getElementById("btnCloseAfterGift");
 
@@ -254,13 +248,6 @@ let activeKey = null;
    РЕНДЕР ШАРОВ
    =========================== */
 
-function colorVariant(i) {
-  const variants = [
-    "hue-0", "hue-1", "hue-2", "hue-3", "hue-4", "hue-5"
-  ];
-  return variants[i % variants.length];
-}
-
 function createOrnaments() {
   ornamentsEl.innerHTML = "";
 
@@ -277,11 +264,7 @@ function createOrnaments() {
     wrap.setAttribute("aria-label", `Шарик ${data.dateLabel}`);
 
     const ball = document.createElement("div");
-    ball.className = "ball " + colorVariant(idx);
-
-    // добавим лёгкий оттенок через filter hue-rotate
-    const hue = (idx * 22) % 360;
-    ball.style.filter = `hue-rotate(${hue}deg)`;
+    ball.className = "ball " + ballColorClass(idx);
 
     if (openedMap[item.key]) {
       ball.classList.add("ball--opened");
@@ -301,7 +284,7 @@ function createOrnaments() {
 }
 
 /* ===========================
-   МОДАЛКА: ОТКРЫТИЕ
+   МОДАЛКА
    =========================== */
 
 function openModal() {
@@ -316,7 +299,6 @@ function closeModal() {
   document.body.style.overflow = "";
   activeKey = null;
 
-  // reset steps
   setStep("date");
   dateInput.value = "";
   answerInput.value = "";
@@ -349,8 +331,7 @@ function openForDate(key) {
   answerNote.textContent = "";
   setStep("date");
   openModal();
-
-  setTimeout(() => dateInput.focus(), 50);
+  setTimeout(() => dateInput.focus(), 60);
 }
 
 /* ===========================
@@ -362,18 +343,17 @@ function checkDate() {
   const userIso = parseUserDate(dateInput.value);
 
   if (!userIso) {
-    dateNote.textContent = "Хм… формат не распознан. Пример: 15.12.2025 или 2025-12-15";
-    dateNote.style.color = "rgba(255,255,255,0.72)";
+    dateNote.textContent = "Не распознала дату. Можно 8 цифр: 15122025";
+    dateNote.style.color = "rgba(255,255,255,0.78)";
     return;
   }
 
   if (userIso !== activeKey) {
-    dateNote.textContent = `Сегодня у тебя: ${formatDateLabel(userIso)}. А этот шарик ждёт: ${formatDateLabel(activeKey)} ❄️`;
+    dateNote.textContent = `Этот шарик ждёт: ${formatDateLabel(activeKey)} ❄️`;
     dateNote.style.color = "rgba(255,170,170,0.95)";
     return;
   }
 
-  // ОК
   const data = adventData[activeKey];
   modalBadge.textContent = "Письмо";
   modalTitle.textContent = `Шарик ${data.dateLabel}`;
@@ -385,7 +365,7 @@ function checkDate() {
   answerInput.value = "";
   answerNote.textContent = "";
   setStep("question");
-  setTimeout(() => answerInput.focus(), 50);
+  setTimeout(() => answerInput.focus(), 60);
 }
 
 /* ===========================
@@ -399,7 +379,7 @@ function checkAnswer() {
   const user = normalizeText(answerInput.value);
   if (!user) {
     answerNote.textContent = "Нужно написать ответ 🙂";
-    answerNote.style.color = "rgba(255,255,255,0.78)";
+    answerNote.style.color = "rgba(255,255,255,0.80)";
     return;
   }
 
@@ -411,7 +391,6 @@ function checkAnswer() {
     return;
   }
 
-  // Победа
   openedMap[activeKey] = true;
   saveOpened(openedMap);
   createOrnaments();
@@ -422,17 +401,7 @@ function checkAnswer() {
 function showGift(data) {
   modalBadge.textContent = "Подарок";
   modalTitle.textContent = `Открыто: ${data.dateLabel}`;
-  modalSubtitle.textContent = "Ты ответил(а) правильно — вот твой подарок!";
-
-  giftNameEl.textContent = data.giftName || "Подарок";
-  const type = giftTypeByUrl(data.giftUrl, data.giftName);
-
-  let desc = "Открой по кнопке ниже.";
-  if (type === "pdf") desc = "PDF на Google Drive — откроется в просмотре.";
-  if (type === "audio") desc = "Аудио на Google Drive — откроется в просмотре.";
-  if (type === "spotify") desc = "Плейлист Spotify — откроется в новом окне.";
-  if (type === "youtube") desc = "YouTube — откроется в новом окне.";
-  giftDescEl.textContent = desc;
+  modalSubtitle.textContent = "Сюрприз внутри 🎁";
 
   giftActions.innerHTML = "";
 
@@ -448,12 +417,13 @@ function showGift(data) {
 }
 
 /* ===========================
-   КНОПКИ / ЗАКРЫТИЕ
+   СЛУШАТЕЛИ
    =========================== */
 
 btnCheckDate.addEventListener("click", checkDate);
 btnCancel.addEventListener("click", closeModal);
 modalClose.addEventListener("click", closeModal);
+
 btnBack.addEventListener("click", () => setStep("date"));
 btnCheckAnswer.addEventListener("click", checkAnswer);
 btnCloseAfterGift.addEventListener("click", closeModal);
@@ -468,13 +438,12 @@ document.addEventListener("keydown", (e) => {
     if (howOverlay.classList.contains("isOpen")) closeHow();
   }
   if (e.key === "Enter" && modalOverlay.classList.contains("isOpen")) {
-    // Enter: удобные действия по шагам
     if (!stepDate.classList.contains("hidden")) checkDate();
     else if (!stepQuestion.classList.contains("hidden")) checkAnswer();
   }
 });
 
-// How modal
+// how modal
 function openHow() {
   howOverlay.classList.add("isOpen");
   howOverlay.setAttribute("aria-hidden", "false");
@@ -485,7 +454,6 @@ function closeHow() {
   howOverlay.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
 }
-
 btnHow.addEventListener("click", openHow);
 howClose.addEventListener("click", closeHow);
 howOk.addEventListener("click", closeHow);
@@ -493,7 +461,7 @@ howOverlay.addEventListener("click", (e) => {
   if (e.target === howOverlay) closeHow();
 });
 
-// Reset
+// reset
 btnReset.addEventListener("click", () => {
   openedMap = {};
   saveOpened(openedMap);
@@ -501,8 +469,6 @@ btnReset.addEventListener("click", () => {
   alert("Прогресс сброшен. Все шарики снова «закрыты» ❄️");
 });
 
-/* ===========================
-   INIT
-   =========================== */
-
+/* init */
+maskDateInput(dateInput);
 createOrnaments();
