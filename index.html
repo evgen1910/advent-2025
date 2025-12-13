@@ -2,17 +2,17 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>Адвент-календарь 2025 ❄️</title>
   <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Адвент-календарь: снежный еловый лес, 17 шаров, вопросы и подарки." />
+  <meta name="description" content="Адвент-календарь: 17 шаров, проверка даты, вопрос и подарок." />
 </head>
 
 <body>
   <header class="topbar">
     <div class="brand">
       <div class="brand__title">Адвент-календарь 2025</div>
-      <div class="brand__subtitle">Нажми на шарик • введи дату • ответь • забери подарок</div>
+      <div class="brand__subtitle">Нажми на шарик • введи дату • ответь • открой подарок</div>
     </div>
 
     <div class="topbar__right">
@@ -26,125 +26,44 @@
   </header>
 
   <main class="stage" aria-label="Сцена адвент-календаря">
-    <!-- SVG лес -->
     <div class="scene" aria-hidden="true">
-      <svg viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" class="scene__svg">
-        <!-- Небо -->
-        <defs>
-          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#071124"/>
-            <stop offset="0.55" stop-color="#0a1a33"/>
-            <stop offset="1" stop-color="#07101f"/>
-          </linearGradient>
-
-          <linearGradient id="fog" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stop-color="rgba(255,255,255,0.06)"/>
-            <stop offset="0.5" stop-color="rgba(255,255,255,0.12)"/>
-            <stop offset="1" stop-color="rgba(255,255,255,0.06)"/>
-          </linearGradient>
-
-          <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="6" result="blur"/>
-            <feMerge>
-              <feMergeNode in="blur"/>
-              <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-          </filter>
-
-          <filter id="snowBlur">
-            <feGaussianBlur stdDeviation="0.6" />
-          </filter>
-        </defs>
-
-        <rect width="1200" height="700" fill="url(#sky)"/>
-        <!-- Луна -->
-        <circle cx="980" cy="140" r="46" fill="rgba(255,255,255,0.12)"/>
-        <circle cx="980" cy="140" r="32" fill="rgba(255,255,255,0.18)" filter="url(#softGlow)"/>
-
-        <!-- Дальний лес -->
-        <g opacity="0.55">
-          <path d="M0,420 C120,390 240,430 360,400 C520,360 700,450 860,410 C980,380 1100,410 1200,390 L1200,700 L0,700 Z"
-                fill="#081a24"/>
-          <g fill="#0b2430" opacity="0.9">
-            <polygon points="70,470 110,380 150,470"/>
-            <polygon points="140,490 190,350 240,490"/>
-            <polygon points="230,470 270,390 310,470"/>
-            <polygon points="330,500 390,330 450,500"/>
-            <polygon points="460,485 520,345 580,485"/>
-            <polygon points="610,510 680,320 750,510"/>
-            <polygon points="760,485 820,355 880,485"/>
-            <polygon points="900,505 970,335 1040,505"/>
-            <polygon points="1040,485 1095,365 1150,485"/>
-          </g>
-        </g>
-
-        <!-- Туман -->
-        <rect x="0" y="360" width="1200" height="220" fill="url(#fog)" opacity="0.35"/>
-
-        <!-- Ближний лес -->
-        <g opacity="0.92">
-          <path d="M0,500 C180,450 310,520 470,480 C650,430 820,560 1040,480 C1110,455 1160,470 1200,460 L1200,700 L0,700 Z"
-                fill="#06161b"/>
-
-          <g>
-            <polygon class="tree tree--1" points="120,650 190,430 260,650"/>
-            <polygon class="tree tree--2" points="240,660 330,410 420,660"/>
-            <polygon class="tree tree--3" points="430,680 540,390 650,680"/>
-            <polygon class="tree tree--4" points="620,680 720,400 820,680"/>
-            <polygon class="tree tree--5" points="820,680 950,370 1080,680"/>
-          </g>
-        </g>
-
-        <!-- Снег на земле -->
-        <path d="M0,610 C220,580 360,640 520,610 C700,575 850,655 1040,605 C1120,580 1160,600 1200,590 L1200,700 L0,700 Z"
-              fill="rgba(255,255,255,0.07)"/>
-
-        <!-- Снежинки (декор) -->
-        <g opacity="0.18" filter="url(#snowBlur)">
-          <circle cx="120" cy="90" r="2" fill="white"/>
-          <circle cx="260" cy="160" r="1.8" fill="white"/>
-          <circle cx="420" cy="120" r="1.5" fill="white"/>
-          <circle cx="520" cy="70" r="1.2" fill="white"/>
-          <circle cx="680" cy="190" r="1.7" fill="white"/>
-          <circle cx="740" cy="100" r="1.1" fill="white"/>
-          <circle cx="860" cy="210" r="1.6" fill="white"/>
-          <circle cx="1060" cy="230" r="1.4" fill="white"/>
-          <circle cx="1130" cy="130" r="1.2" fill="white"/>
-        </g>
-      </svg>
-
-      <!-- Слой со "снегом" поверх SVG -->
       <div class="snow" aria-hidden="true"></div>
+      <div class="vignette" aria-hidden="true"></div>
     </div>
 
-    <!-- Контейнер шаров -->
     <section class="ornaments" aria-label="Ёлочные игрушки (шары с датами)">
       <!-- шарики создаются через JS -->
     </section>
   </main>
 
-  <!-- Модалка: шаг 1 (дата) / шаг 2 (вопрос) / подарок -->
+  <!-- Модалка календаря -->
   <div class="modalOverlay" id="modalOverlay" aria-hidden="true">
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
       <button class="modal__close" id="modalClose" type="button" aria-label="Закрыть">✕</button>
 
       <div class="modal__head">
-        <div class="badge" id="modalBadge">Дата</div>
+        <div class="badge" id="modalBadge">Шарик</div>
         <h2 class="modal__title" id="modalTitle">Шарик</h2>
         <p class="modal__subtitle" id="modalSubtitle"></p>
       </div>
 
       <div class="modal__body">
-        <!-- Step 1 -->
+        <!-- Step: date -->
         <div class="step" id="stepDate">
           <p class="prompt">
             Ты уверен, что хочешь открыть этот шар сегодня?
-            <span class="muted">Какая сегодня дата?</span>
+            <span class="muted">Введи сегодняшнюю дату.</span>
           </p>
 
           <label class="field">
-            <span class="field__label">Введи дату (ДД.ММ.ГГГГ или ГГГГ-ММ-ДД)</span>
-            <input class="input" id="dateInput" inputmode="numeric" placeholder="например: 15.12.2025" autocomplete="off" />
+            <span class="field__label">Можно просто 8 цифр: 15122025 (мы сами поставим точки)</span>
+            <input
+              class="input"
+              id="dateInput"
+              inputmode="numeric"
+              placeholder="15122025"
+              autocomplete="off"
+            />
           </label>
 
           <div class="actions">
@@ -155,7 +74,7 @@
           <div class="note" id="dateNote" role="status" aria-live="polite"></div>
         </div>
 
-        <!-- Step 2 -->
+        <!-- Step: question -->
         <div class="step hidden" id="stepQuestion">
           <div class="letter">
             <div class="letter__top">
@@ -182,14 +101,11 @@
           </div>
         </div>
 
-        <!-- Gift -->
+        <!-- Step: gift -->
         <div class="step hidden" id="stepGift">
           <div class="gift">
             <div class="gift__sparkle" aria-hidden="true"></div>
             <div class="gift__title">Подарок открыт 🎁</div>
-            <div class="gift__name" id="giftName"></div>
-            <div class="gift__desc" id="giftDesc"></div>
-
             <div class="gift__actions" id="giftActions"></div>
 
             <div class="actions">
@@ -209,13 +125,13 @@
       <div class="modal__head">
         <div class="badge">Инструкция</div>
         <h2 class="modal__title" id="howTitle">Как открыть шарик</h2>
-        <p class="modal__subtitle">Это календарь на честность + немного магии.</p>
+        <p class="modal__subtitle">Честность + немного магии.</p>
       </div>
       <div class="modal__body">
         <ol class="how">
           <li>Нажми на шарик с нужной датой.</li>
-          <li>Введи сегодняшнюю дату (как ты её ощущаешь 😄).</li>
-          <li>Если дата совпадает — появится письмо с вопросом.</li>
+          <li>Введи дату (можно 8 цифр).</li>
+          <li>Если дата совпала — появится письмо с вопросом.</li>
           <li>Ответь правильно — и откроется подарок.</li>
         </ol>
         <div class="actions">
