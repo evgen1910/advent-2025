@@ -25,7 +25,7 @@ const adventData = {
     dateLabel: "18.12.2025",
     question: "В какой стране на Новый год (Новый год по лунному календарю) нельзя подметать пол, чтобы не вымести удачу?",
     answers: ["китай"],
-    giftUrl: "https://drive.google.com/file/d/1c3iueehQI8tNy7iva199JPIhqIRVfpqH/view?usp=sharing"
+    giftUrl: "https://drive.google.com/file/d/1YsunO894S2STDpmq020xCcDOu-388mMP/view?usp=sharing" 
   },
   "2025-12-19": {
     dateLabel: "19.12.2025",
@@ -472,3 +472,4 @@ btnReset.addEventListener("click", () => {
 /* init */
 maskDateInput(dateInput);
 createOrnaments();
+
