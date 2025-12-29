@@ -104,6 +104,12 @@ const adventData = {
     question: "Кем был Мистер Хэнки из первого рождественского эпизода Южного парка?",
     answers: ["какашка"],
     giftUrl: "https://drive.google.com/file/d/1bygZpTNiGqbyCHQQewskRVoCdu69pcNM/view?usp=sharing"
+  },
+  "2026-01-01": {
+    dateLabel: "01.01.2026",
+    question: "Имя женщины, которая постоянно называет тебя жуком, потому что ты ЖУК",
+    answers: ["Евгения"],
+    giftUrl: "https://pikabu.ru/"
   }
 };
 
@@ -127,7 +133,8 @@ const ornamentLayout = [
 
   { key:"2025-12-29", x: 50, y: 10 },
   { key:"2025-12-30", x: 30, y: 58 },
-  { key:"2025-12-31", x: 58, y: 56 }
+  { key:"2025-12-31", x: 58, y: 56 },
+  { key:"2026-01-01", x: 70, y: 12 }
 ];
 
 /* ===========================
@@ -472,4 +479,5 @@ btnReset.addEventListener("click", () => {
 /* init */
 maskDateInput(dateInput);
 createOrnaments();
+
 
