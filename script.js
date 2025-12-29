@@ -109,7 +109,7 @@ const adventData = {
     dateLabel: "01.01.2026",
     question: "Имя женщины, которая постоянно называет тебя жуком, потому что ты ЖУК",
     answers: ["Евгения"],
-    giftUrl: "https://pikabu.ru/"
+    giftUrl: "https://t.me/+KGirTgebLtQ5OGEy"
   }
 };
 
@@ -479,5 +479,6 @@ btnReset.addEventListener("click", () => {
 /* init */
 maskDateInput(dateInput);
 createOrnaments();
+
 
 
